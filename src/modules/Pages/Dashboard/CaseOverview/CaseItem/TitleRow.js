@@ -12,7 +12,7 @@ export default function TitleRow(props) {
 
   return (
     <Row justifyContent='space-between' alignItems='center'>
-      <CaseName variant='h5'>{caseName}</CaseName>
+      <CaseName variant='subtitle1'>{caseName}</CaseName>
       <EditButton />
     </Row>
   )
